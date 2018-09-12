@@ -39,6 +39,6 @@ public class OrderViewHolder extends RecyclerView.ViewHolder implements  View.On
         menu.setHeaderTitle("Select The Action");
 
         menu.add(0,0,getAdapterPosition(),"Update");
-        menu.add(0,1,getAdapterPosition(),"Update");
+        menu.add(0,1,getAdapterPosition(),"Delete");
     }
 }
